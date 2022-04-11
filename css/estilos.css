@@ -16,25 +16,10 @@ body {
 #header {
     padding: 5px;
     background-color: rgb(151, 1, 1);
-    display: flex;
 }
 #header .header__logo img {
     width: 180px;
     margin: auto;
-}
-#header .header__menu ul {
-    display: flex;
-    list-style-type: none;
-}
-#header .header__menu ul li {
-    margin: 0 20px;
-    font-weight: bolder;
-    font-size: 14px;
-}
-#header .header__menu ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
 }
 /* FIN HEADER */
 
@@ -261,4 +246,8 @@ input:focus {
 }
 .btn-primary {
     margin-bottom: 10px;
+}
+.portada-contrata-ahora {
+    width: 70%;
+    margin: 0 auto;
 }
