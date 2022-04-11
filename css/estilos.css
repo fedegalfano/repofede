@@ -47,9 +47,6 @@ body {
 }
 #portada .portada__manu img {
     width: 70%;
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
 }
 .seccionasegurate__titulo {
     text-align: center;
@@ -94,6 +91,9 @@ body {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
 }
 #footer .footer__redes {
     display: flex;
