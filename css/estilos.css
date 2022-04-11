@@ -44,6 +44,9 @@ body {
 #portada .portada__manu {
     margin-top: 20px;
     text-align: center;
+    margin: 0 auto;
+    transform: translate(300px, 200px);
+    transform: rotate(20deg);
 }
 #portada .portada__manu img {
     width: 70%;
