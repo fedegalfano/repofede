@@ -94,9 +94,6 @@ body {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
 }
 #footer .footer__redes {
     display: flex;
