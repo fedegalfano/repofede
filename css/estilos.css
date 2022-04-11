@@ -181,6 +181,10 @@ footer {
     height: 500px;
     margin: auto;
 }
+.titulo-beneficios {
+    text-align: center;
+    margin-top: 20px;
+}
 
 /* MEDIA QUERYS */
 @media (min-width: 577px) and (max-width: 992px) {
