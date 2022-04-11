@@ -54,13 +54,7 @@ body {
 .seccionasegurate__titulo {
     text-align: center;
     font-size: 20px;
-    width: 600px;
-    height: 100px;
-    background: rgb(137, 23, 23);
-    transition: width 3s;
-div:hover {
-        width: 200px;
-      }
+}
 .seccionasegurate__iconos {
     display: flex;
     justify-content: center;
