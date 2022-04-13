@@ -264,3 +264,13 @@ input:focus {
 .titulo-mapa {
     text-align: center;
 }
+.col {
+    margin-bottom: 20px;
+}
+.titulo-coberturas {
+    margin: 10px;
+    text-align: center;
+}
+.card {
+    background-color: rgb(177, 26, 26);
+}
