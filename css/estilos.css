@@ -274,3 +274,6 @@ input:focus {
 .card {
     background-color: rgb(177, 26, 26);
 }
+.card-body {
+    background-color: rgb(235, 131, 131);
+}
