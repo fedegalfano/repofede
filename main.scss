@@ -45,12 +45,12 @@ body {
     margin-top: 10px;
 }
 .seccionasegurate__iconos {
-    display: flex;
-    justify-content: center;
-}
-.seccionasegurate__iconos img {
-    width: 100px!important;
-    margin: 50px
+	display: flex;
+	justify-content: center;
+	img {
+		width: 100px !important;
+		margin: 50px;
+	}
 }
 .seccion__texto {
     text-align: center;
@@ -72,43 +72,45 @@ footer {
     background-color: rgb(151, 1, 1);
 }
 .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3 {
-    font-size: 20px;
-    color: black;
-}
-.footer-content p {
-    max-width: 200px;
-    margin: 10px auto;
-    line-height: 20px;
-    font-size: 10px;
-    color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	h3 {
+		font-size: 20px;
+		color: black;
+	}
+	p {
+		max-width: 200px;
+		margin: 10px auto;
+		line-height: 20px;
+		font-size: 10px;
+		color: black;
+	}
 }
 .socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2px;
-}
-.socials li {
-    margin: 0 10px;
-}
-.socials a {
-    text-decoration: none;
-    color: bisque;
-}
-.socials a i {
-    font-size: 20px;
-    transition: 2s;
-}
-.socials a:hover i {
-    color: aqua;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2px;
+	li {
+		margin: 0 10px;
+	}
+	a {
+		text-decoration: none;
+		color: bisque;
+		i {
+			font-size: 20px;
+			transition: 2s;
+		}
+		&:hover {
+			i {
+				color: aqua;
+			}
+		}
+	}
 }
 .footer-bottom {
     background-color: rgb(151, 1, 1);
