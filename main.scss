@@ -14,26 +14,30 @@ body {
 }
 /* HEADER */
 #header {
-    padding: 5px;
-    background-color: rgb(151, 1, 1);
-}
-#header .header__logo img {
-    width: 180px;
-    margin: auto;
+	padding: 5px;
+	background-color: rgb(151, 1, 1);
+	.header__logo {
+		img {
+			width: 180px;
+			margin: auto;
+		}
+	}
 }
 /* FIN HEADER */
 
 /* MAIN */
-#portada .portada__manu {
-    margin-top: 40px;
-    text-align: center;
-    margin: 0 auto;
-    transform: translate(300px, 200px);
-    transform: rotate(0deg);
-}
-#portada .portada__manu img {
-    margin-top: 30px;
-    width: 60%;
+#portada {
+	.portada__manu {
+		margin-top: 40px;
+		text-align: center;
+		margin: 0 auto;
+		transform: translate(300px, 200px);
+		transform: rotate(0deg);
+		img {
+			margin-top: 30px;
+			width: 60%;
+		}
+	}
 }
 .seccionasegurate__titulo {
     text-align: center;
