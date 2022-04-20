@@ -40,12 +40,12 @@ body {
 	}
 }
 .seccionasegurate {
-    .seccionasegurate__titulo {
+    & &__titulo {
         text-align: center;
         font-size: 20px;
         margin-top: 10px;
     }
-    .seccionasegurate__iconos {
+    & &__iconos {
         display: flex;
         justify-content: center;
         img {
