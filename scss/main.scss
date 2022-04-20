@@ -1,5 +1,6 @@
 /*Variables*/
 $colorPrincipal: #e40000;
+$colorSecundario: rgb(151, 1, 1);
 $fuentePrincipal: 'Poppins', sans-serif;
 
 * {
@@ -19,7 +20,7 @@ body {
 /* HEADER */
 #header {
 	padding: 5px;
-	background-color: rgb(151, 1, 1);
+	background-color: $colorSecundario;
 	.header__logo {
 		img {
 			width: 175px;
@@ -76,7 +77,7 @@ footer {
     width: 100%;
     font-family: $fuentePrincipal;
     padding-top: 20px;
-    background-color: rgb(151, 1, 1);
+    background-color: $colorSecundario;
 }
 .footer-content {
 	display: flex;
