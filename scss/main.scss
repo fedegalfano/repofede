@@ -39,18 +39,21 @@ body {
 		}
 	}
 }
-.seccionasegurate__titulo {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 10px;
-}
-.seccionasegurate__iconos {
-	display: flex;
-	justify-content: center;
-	img {
-		width: 100px !important;
-		margin: 50px;
-	}
+.seccionasegurate {
+    .seccionasegurate__titulo {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .seccionasegurate__iconos {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 100px !important;
+            margin: 50px;
+        }
+    }
+
 }
 .seccion__texto {
     text-align: center;
