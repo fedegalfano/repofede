@@ -1,11 +1,15 @@
+/*Variables*/
+$colorPrincipal: #e40000;
+$fuentePrincipal: 'Poppins', sans-serif;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuentePrincipal;
 }
 body {
-    background: rgb(228,0,0);
+    background: $colorPrincipal;
     background: radial-gradient(circle, rgba(228,0,0,1) 0%, rgba(255,50,50,0.5555264342064952) 100%);
 }
 .main-width {
@@ -70,7 +74,7 @@ footer {
     position: absolute;
     height: auto;
     width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $fuentePrincipal;
     padding-top: 20px;
     background-color: rgb(151, 1, 1);
 }
