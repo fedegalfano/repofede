@@ -86,8 +86,8 @@ footer {
 }
 
 body {
-  background: #e40000;
-  background: radial-gradient(circle, #e40000 0%, rgba(255, 50, 50, 0.555526) 100%);
+  background: #ed213a;
+  background: linear-gradient(to top, #ed213a, #93291e);
 }
 
 .main-width {

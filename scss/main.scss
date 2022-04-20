@@ -3,8 +3,8 @@
 @import 'footer';
 
 /*Variables*/
-$colorPrincipal: #e40000;
-$colorSecundario: rgb(151, 1, 1);
+$colorPrincipal: #ed213a;
+$colorSecundario: #93291e;
 $fuentePrincipal: 'Poppins', sans-serif;
 
 * {
@@ -15,7 +15,7 @@ $fuentePrincipal: 'Poppins', sans-serif;
 }
 body {
     background: $colorPrincipal;
-    background: radial-gradient(circle, rgba(228,0,0,1) 0%, rgba(255,50,50,0.5555264342064952) 100%);
+    background: linear-gradient(to top, #ed213a, #93291e);
 }
 .main-width {
     width: 90%;
