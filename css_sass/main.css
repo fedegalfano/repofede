@@ -91,6 +91,16 @@ footer {
   background: #93291e;
 }
 
+/* Extend */
+.fotonucleo, .fotonucleo--beneficios {
+  width: 600px;
+  height: 550px;
+}
+
+.fotonucleo--beneficios {
+  border: solid 5px white;
+}
+
 * {
   margin: 0;
   padding: 0;

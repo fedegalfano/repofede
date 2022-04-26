@@ -21,7 +21,15 @@ $colores: (
 .footer-bottom {
     background: map-get($map: $colores, $key: secundario);
 }
-
+/* Extend */
+.fotonucleo {
+    width: 600px;
+    height: 550px;
+}
+.fotonucleo--beneficios {
+    @extend .fotonucleo;
+    border: solid 5px white;
+}
 * {
     margin: 0;
     padding: 0;
