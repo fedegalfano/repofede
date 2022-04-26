@@ -7,6 +7,20 @@ $colorPrincipal: #ed213a;
 $colorSecundario: #93291e;
 $fuentePrincipal: 'Poppins', sans-serif;
 
+/*Maps*/
+$colores: (
+    principal: #ed213a,
+    secundario: #93291e,
+);
+#header {
+    background: map-get($map: $colores, $key: principal);
+}
+#footer {
+    background: map-get($map: $colores, $key: secundario);
+}
+.footer-bottom {
+    background: map-get($map: $colores, $key: secundario);
+}
 * {
     margin: 0;
     padding: 0;

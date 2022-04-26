@@ -78,6 +78,19 @@ footer {
 }
 
 /*Variables*/
+/*Maps*/
+#header {
+  background: #ed213a;
+}
+
+#footer {
+  background: #93291e;
+}
+
+.footer-bottom {
+  background: #93291e;
+}
+
 * {
   margin: 0;
   padding: 0;
