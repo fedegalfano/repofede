@@ -21,6 +21,7 @@ $colores: (
 .footer-bottom {
     background: map-get($map: $colores, $key: secundario);
 }
+
 * {
     margin: 0;
     padding: 0;
