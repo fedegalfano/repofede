@@ -120,6 +120,7 @@ footer {
 body {
   background: #ed213a;
   background: linear-gradient(to top, #ed213a, #93291e);
+  color: black;
 }
 
 .main-width {
