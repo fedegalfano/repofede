@@ -342,4 +342,12 @@ input:focus {
 .card-body {
   background-color: #fdfafa;
 }
+
+label {
+  transition: none;
+}
+
+input .transform-control {
+  transition: none;
+}
 /*# sourceMappingURL=main.css.map */
