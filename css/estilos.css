@@ -252,9 +252,12 @@ input {
     margin-top: 20px;
 }
 .btn {
-    background-color: rgb(172, 21, 21);
+    background-color: rgb(255, 255, 255);
+    color: black;
     border-color: rgb(143, 10, 10);
     margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
 }
 .titulo-mapa {
     text-align: center;
