@@ -154,7 +154,6 @@ body {
 
 /* MEDIA QUERYS */
 @media (min-width: 577px) and (max-width: 992px) {
-
     /********** Página inicio **********/
     .seccionasegurate__iconos {
         display: flex;
@@ -251,5 +250,5 @@ input {
     transition: 0.4s
 }
 .nav-item:hover::after {
-    width: 100%
+    width: 100%;
 }
