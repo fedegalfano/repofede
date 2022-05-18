@@ -187,7 +187,6 @@ body {
     #footer div {
         margin-top: 10px;
     }
-
     /********** Página coberturas **********/
     .cobertura-grid {
         display: grid;
@@ -242,4 +241,15 @@ input {
 }
 .card-body {
     background-color: rgb(253, 250, 250);
+}
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 3px;
+    background: #fec400;
+    transition: 0.4s
+}
+.nav-item:hover::after {
+    width: 100%
 }

@@ -332,4 +332,17 @@ input {
 .card-body {
   background-color: #fdfafa;
 }
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 3px;
+  background: #fec400;
+  transition: 0.4s;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
