@@ -102,11 +102,12 @@ footer {
 
 /* Mixins */
 .btn--contacto {
-  background-color: #ad0909;
-  border-color: black;
-  margin-bottom: 5px;
+  background-color: #cb0909;
+  border-color: #ed213a;
+  margin-bottom: 5px #ed213a;
   padding: 5px;
   width: 100px;
+  border-radius: 30px;
 }
 
 * {
@@ -329,7 +330,7 @@ input {
 }
 
 .card-body {
-  background-color: #fdfafa;
+  background-color: #d83131;
 }
 
 .nav-item::after {
