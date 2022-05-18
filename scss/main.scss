@@ -23,8 +23,7 @@ $colores: (
 }
 /* Extend */
 .fotonucleo {
-    width: 600px;
-    height: 550px;
+    width: 100%;
 }
 .fotonucleo--beneficios {
     @extend .fotonucleo;

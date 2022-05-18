@@ -93,8 +93,7 @@ footer {
 
 /* Extend */
 .fotonucleo, .fotonucleo--beneficios {
-  width: 600px;
-  height: 550px;
+  width: 100%;
 }
 
 .fotonucleo--beneficios {
