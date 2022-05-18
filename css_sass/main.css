@@ -344,4 +344,55 @@ input:focus {
   align-items: center;
   list-style-type: none;
 }
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  padding: 5px 0;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.nav-link:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 50%;
+  height: 2px;
+  background: white;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  width: 50%;
+  height: 2px;
+  background: white;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link:hover:before {
+  right: 0;
+}
+
+.nav-link:hover:after {
+  left: 0;
+}
 /*# sourceMappingURL=main.css.map */
