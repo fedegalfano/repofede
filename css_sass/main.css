@@ -295,12 +295,6 @@ input {
   transition: all 1s;
 }
 
-input:focus {
-  background-color: #cedabc;
-  width: 500px;
-  height: 20px;
-}
-
 .navbar-brand img {
   width: 150px;
 }
