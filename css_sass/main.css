@@ -338,4 +338,10 @@ input:focus {
 .card-body {
   background-color: #fdfafa;
 }
+
+.nav .navbar-expand-lg .navbar-light .navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
 /*# sourceMappingURL=main.css.map */

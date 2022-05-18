@@ -248,3 +248,8 @@ input:focus {
 .card-body {
     background-color: rgb(253, 250, 250);
 }
+.nav .navbar-expand-lg .navbar-light .navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
