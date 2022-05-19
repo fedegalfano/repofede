@@ -153,6 +153,17 @@ body {
 
 /* MEDIA QUERYS */
 @media (min-width: 577px) and (max-width: 992px) {
+    .nav-item::after {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 3px;
+        background: #fec400;
+        transition: 0.4s
+    }
+    .nav-item:hover::after {
+        width: 30px;
+    }
     /********** Página inicio **********/
     .seccionasegurate__iconos {
         display: flex;
